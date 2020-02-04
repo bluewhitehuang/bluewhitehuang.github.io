@@ -1,0 +1,14 @@
+学习vue.js
+
+#第一天 认识并体验vue.js
+
+<div id="studyvue></div>
+<script src="../js/vue.js></script>
+<script>
+	const obj = new vue({          //vue中使用const定义常量，不可修改，且必须被初始化；使用let定义变量。
+	el: '#studyvue',               //通过el获取到id名来管理元素
+	data:{
+		message: 学习vue.js    
+	}
+	})
+<script>
